@@ -1,6 +1,7 @@
 const translations = {
     ko: {
         // Common Elements
+        "menu-title": "메뉴",
         "menu-home": "Home",
         "menu-profile": "Profile",
         "menu-projects": "Projects",
@@ -35,11 +36,7 @@ const translations = {
         "project2-desc": "AI 기반 실시간 안전 및 소통 보조 시스템을 개발하는 프로젝트에 팀장으로 참여하여 개발했습니다.",
         "projects-view-all": "모든 프로젝트 보기",
         "footer-contact-title": "연락처",
-        "footer-contact-desc": "아래 양식이나 연락처로 편하게 연락해주세요.",
-        "footer-name-label": "이름",
-        "footer-email-label": "이메일",
-        "footer-message-label": "메시지",
-        "footer-send-btn": "메시지 보내기",
+        "footer-contact-desc": "아래 연락처로 편하게 연락해주세요.",
 
         // Projects Page
         "projects-header": "프로젝트",
@@ -154,6 +151,7 @@ const translations = {
     },
     ja: {
         // Common Elements
+        "menu-title": "メニュー",
         "menu-home": "ホーム",
         "menu-profile": "プロフィール",
         "menu-projects": "プロジェクト",
@@ -188,11 +186,7 @@ const translations = {
         "project2-desc": "AI基盤リアルタイム安全及び疎通補助システムを開発するプロジェクトにAIチームメンバーとして参加しました。",
         "projects-view-all": "すべてのプロジェクトを見る",
         "footer-contact-title": "お問い合わせ",
-        "footer-contact-desc": "下記フォームまたは連絡先でお気軽にお問い合わせください。",
-        "footer-name-label": "お名前",
-        "footer-email-label": "メールアドレス",
-        "footer-message-label": "メッセージ",
-        "footer-send-btn": "メッセージを送信",
+        "footer-contact-desc": "下記連絡先でお気軽にお問い合わせください。",
 
         // Projects Page
         "projects-header": "プロジェクト",
@@ -307,6 +301,7 @@ const translations = {
     },
     en: {
         // Common Elements
+        "menu-title": "Menu",
         "menu-home": "Home",
         "menu-profile": "Profile",
         "menu-projects": "Projects",
@@ -341,11 +336,7 @@ const translations = {
         "project2-desc": "TABA Program is a project that develops an AI-based real-time safety and communication assistance system for visually impaired people. I participated as an AI team member.",
         "projects-view-all": "View All Projects",
         "footer-contact-title": "Contact",
-        "footer-contact-desc": "Please contact me through the form below or the contact information below.",
-        "footer-name-label": "Name",
-        "footer-email-label": "Email",
-        "footer-message-label": "Message",
-        "footer-send-btn": "Send Message",
+        "footer-contact-desc": "Please feel free to contact me through the contact information below.",
 
         // Projects Page
         "projects-header": "Projects",
