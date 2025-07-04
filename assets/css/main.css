@@ -4182,23 +4182,49 @@ input, select, textarea {
     transition: width 1s ease-in-out;
 }
 
-/* Language Switcher */
-.language-switcher {
-	padding: lem 0;
-	text-align: center;
+/* Header Language Switcher */
+.language-switcher-header {
+    position: absolute;
+    right: 7em; /* 'Menu' 버튼 왼쪽에 위치하도록 조정 */
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap; /* 버튼들이 한 줄에 표시되도록 설정 */
 }
 
-.language-switcher button {
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
+.language-switcher-header button {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.125);
     color: #ffffff;
-    padding: 0.5em 1em;
-    margin: 0 0.25em;
+    padding: 0.5em 0.7em;
+    margin: 0 0.2em;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 0.8em;
     transition: background-color 0.2s ease-in-out;
+    line-height: 1.5;
 }
 
-.language-switcher button:hover {
-    background: rgba(255, 255, 255, 0.2);
+.language-switcher-header button:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+
+/* 모바일 화면 대응 */
+@media screen and (max-width: 736px) {
+    .language-switcher-header {
+        right: 5.5em; /* 화면이 작아지면 위치 조정 */
+    }
+    .language-switcher-header button {
+        padding: 0.4em 0.6em;
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .language-switcher-header {
+        right: 4.5em; /* 더 작은 화면에서 위치 재조정 */
+    }
+    .language-switcher-header button {
+        padding: 0.3em 0.5em;
+    }
 }
