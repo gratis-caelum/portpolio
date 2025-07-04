@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/language.js"></script> 
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -37,6 +38,11 @@
 								<li><a href="skills.html">Skills</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
+							<div class="language-switcher">
+								<button onclick="changeLanguage('ko')">Ko</button>
+								<button onclick="changeLanguage('ja')">JA</button>
+								<button onclick="changeLanguage('en')">EN</button>
+							</div>
 							<a href="#" class="close">Close</a>
 						</div>
 					</nav>
@@ -45,8 +51,8 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>Byeongchan Kim</h2>
-							<p>Data Analyst, Data Scientist, Backend Engineer</p>
+							<h2 id="banner-name">Byeongchan Kim</h2>
+							<p id="banner-job">Data Analyst, Data Scientist, Backend Engineer</p>
 						</div>
 					</section>
 
@@ -58,14 +64,14 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Profile</h2>
+										<h2 class="major" id="profile-title">Profile</h2>
 										<ul>
-											<li>👶 1999.04.21</li>
-											<li>🏫 Inhang High School (2016.03. ~ 2018.02.)</li>
-											<li>👨‍🎓 Sunchon University (2019.03 ~ 2023.02)</li>
-											<li>👨‍🎓 Dankook University (2023.02 ~ present)</li>
+											<li id="profile-birthday">👶 1999.04.21</li>
+											<li id="profile-highschool">🏫 Inhang High School (2016.03. ~ 2018.02.)</li>
+											<li id="profile-university">👨‍🎓 Sunchon University (2019.03 ~ 2023.02)</li>
+											<li id="profile-university">👨‍🎓 Dankook University (2023.02 ~ present)</li>
 										</ul>
-										<a href="#contact" class="special">Contact Me</a>
+										<a href="#contact" class="special" id="profile-contact">Contact Me</a>
 									</div>
 								</div>
 							</section>

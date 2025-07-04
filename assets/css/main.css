@@ -4181,3 +4181,24 @@ input, select, textarea {
     height: 100%;
     transition: width 1s ease-in-out;
 }
+
+/* Language Switcher */
+.language-switcher {
+	padding: lem 0;
+	text-align: center;
+}
+
+.language-switcher button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.language-switcher button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

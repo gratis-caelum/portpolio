@@ -25,6 +25,9 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
+			const savedLanguage = localStorage.getItem('language') || 'ko';
+			applyTranslations(savedLanguage);
 		});
 
 	// Header.
@@ -143,3 +146,21 @@
 			});
 
 })(jQuery);
+
+// Language Switcher
+function changeLanguage(lang) {
+	localStorage.setItem('language', lang); // 선택한 언어를 로컬 스토리지에 저장
+	applyTranslations(lang); // 선택한 언어에 따라 텍스트 적용
+}
+
+// 
+function applyTranslations(lang) {
+	const translation = translations[lang];
+	for (const key in translation) {
+		const element = document.getElementById(key);
+		if (element) {
+			element.innerText = translation[key];
+		}
+	}
+}
+

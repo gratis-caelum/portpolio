@@ -1,0 +1,53 @@
+const translations = {
+    ko: {
+        "menu-title": "메뉴",
+        "menu-profile": "프로필",
+        "menu-projects": "프로젝트",
+        "menu-certificate": "교육 및 자격",
+        "menu-skills": "보유 기술",
+        "menu-contact": "연락처",
+        "banner-name": "김병찬",
+        "banner-job": "데이터 분석가, 데이터 과학자, 백엔드 엔지니어",
+        "profile-title": "프로필",
+        "profile-birth": "👶 1999.04.21",
+        "profile-highschool": "🏫 인항고등학교 (2016.03. ~ 2018.02.)",
+        "profile-university": "👨‍🎓 순천대학교 (2019.03 ~ 2023.02)",
+        "profile-gradschool": "👨‍🎓 단국대학교 (2023.02 ~ 현재)",
+        "profile-contact-btn": "연락하기",
+        // 다른 모든 ID에 대한 한국어 텍스트
+    },
+    ja: {
+        "menu-title": "メニュー",
+        "menu-profile": "プロフィール",
+        "menu-projects": "プロジェクト",
+        "menu-certificate": "教育と資格",
+        "menu-skills": "スキル",
+        "menu-contact": "お問い合わせ",
+        "banner-name": "キム・ビョンチャン",
+        "banner-job": "データアナリスト、データサイエンティスト、バックエンドエンジニア",
+        "profile-title": "プロフィール",
+        "profile-birth": "👶 1999.04.21",
+        "profile-highschool": "🏫 仁港高等学校 (2016.03. ~ 2018.02.)",
+        "profile-university": "👨‍🎓 順天大学校 (2019.03 ~ 2023.02)",
+        "profile-gradschool": "👨‍🎓 檀国大学校 (2023.02 ~ 現在)",
+        "profile-contact-btn": "お問い合わせ",
+        // 다른 모든 ID에 대한 일본어 텍스트
+    },
+    en: {
+        "menu-title": "Menu",
+        "menu-profile": "Profile",
+        "menu-projects": "Projects",
+        "menu-certificate": "Certificate",
+        "menu-skills": "Skills",
+        "menu-contact": "Contact",
+        "banner-name": "Byeongchan Kim",
+        "banner-job": "Data Analyst, Data Scientist, Backend Engineer",
+        "profile-title": "Profile",
+        "profile-birth": "👶 1999.04.21",
+        "profile-highschool": "🏫 Inhang High School (2016.03. ~ 2018.02.)",
+        "profile-university": "👨‍🎓 Sunchon University (2019.03 ~ 2023.02)",
+        "profile-gradschool": "👨‍🎓 Dankook University (2023.02 ~ present)",
+        "profile-contact-btn": "Contact Me",
+        // 다른 모든 ID에 대한 영어 텍스트
+    }
+};
