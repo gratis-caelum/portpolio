@@ -231,7 +231,7 @@ const translations = {
         "profile-title": "Profile",
         "profile-birth": "👶 1999.04.21",
         "profile-highschool": "🏫 Inhang High School (2016.03. ~ 2018.02.)",
-        "profile-university": "👨‍🎓 Sunchon University (2019.03 ~ 2023.02)",
+        "profile-university": "👨‍🎓 Sunchonhyang University (2019.03 ~ 2023.02)",
         "profile-gradschool": "👨‍🎓 Dankook University (2023.02 ~ present)",
         "profile-contact-btn": "Contact Me",
         "certificate-title": "Education & Certification",

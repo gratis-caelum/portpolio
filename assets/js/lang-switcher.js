@@ -77,7 +77,12 @@
         
         // 배치 업데이트로 리플로우 최소화
         updates.forEach(update => {
-            update.element.textContent = update.text;
+            // input 요소의 value 속성 처리
+            if (update.element.tagName === 'INPUT' && update.element.type === 'submit') {
+                update.element.value = update.text;
+            } else {
+                update.element.textContent = update.text;
+            }
         });
     }
     
