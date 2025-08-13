@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "slug": "welcome-to-my-blog",
+      "title": "개발 블로그를 시작하며",
+      "excerpt": "안녕하세요! 데이터 분석가이자 백엔드 개발자로서의 여정을 기록하기 위해 블로그를 시작합니다.",
+      "date": "2024-12-01",
+      "category": "experience",
+      "tags": ["개발", "블로그", "시작"],
+      "image": "images/pic02.jpg",
+      "readingTime": 3
+    },
+    {
+      "slug": "data-analysis-with-python",
+      "title": "Python을 활용한 데이터 분석 기초",
+      "excerpt": "Python의 pandas, numpy를 활용한 데이터 분석의 기초부터 시각화까지 다뤄보겠습니다.",
+      "date": "2024-12-05",
+      "category": "data-science",
+      "tags": ["Python", "데이터분석", "pandas", "numpy"],
+      "image": "images/pic03.jpg",
+      "readingTime": 8
+    },
+    {
+      "slug": "machine-learning-introduction",
+      "title": "머신러닝 입문: 첫 번째 모델 만들기",
+      "excerpt": "scikit-learn을 사용하여 첫 번째 머신러닝 모델을 만들어보고, 모델 평가 방법에 대해 알아봅시다.",
+      "date": "2024-12-10",
+      "category": "ai-ml",
+      "tags": ["머신러닝", "scikit-learn", "모델", "AI"],
+      "image": "images/pic04.jpg",
+      "readingTime": 12
+    }
+  ]
+}
